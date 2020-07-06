@@ -67,57 +67,50 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .header-wrap {
   width: 100%;
   box-sizing: border-box;
   background-color: #fff;
   height: 60px;
   padding: 10px;
-}
-.logo {
-  height: 40px;
-}
-.logo img {
-  height: 40px;
-  width: auto;
-}
-.nav {
-  display: flex;
-  height: 40px;
-  align-items: center;
-}
-.nav-item {
-  width: 80px;
-  margin: 10px;
-}
-.active {
-  border-bottom: 2px solid green;
-}
-.mini-menu {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  color: #41b883;
-  cursor: pointer;
-}
+  .logo {
+    height: 40px;
+  }
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+  .nav {
+    display: flex;
+    height: 40px;
+    align-items: center;
+  }
+  .nav-item {
+    width: 80px;
+    margin: 10px;
+  }
+  .active {
+    border-bottom: 2px solid green;
+  }
+  .mini-menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #41b883;
+    cursor: pointer;
+  }
 
-.search-bar {
-  height: 40px;
-}
-.user-info {
-  height: 40px;
-  box-sizing: border-box;
-  padding: 5px 0;
-  float: right;
-}
-.logo,
-.search-bar,
-.user-info,
-.mini-menu,
-nav {
-  height: 40px;
+  .search-bar {
+    height: 40px;
+  }
+  .user-info {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 5px 0;
+    float: right;
+  }
 }
 </style>

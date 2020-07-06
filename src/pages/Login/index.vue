@@ -32,7 +32,7 @@ export default {
 };
 </script>
 
-<style  scoped>
+<style  lang="scss" >
 .login-wrap {
   height: 100vh;
   padding: 0;
